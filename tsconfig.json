@@ -1,0 +1,13 @@
+{
+    "include": ["src/scripts/*.ts"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "target": "es5",
+        "module": "ES2015",
+        "lib": [
+            "ES2015",
+            "DOM"
+        ],
+        "outDir": "dist/js"
+    }
+}

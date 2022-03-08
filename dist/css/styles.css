@@ -1,0 +1,61 @@
+.icons {
+  margin: 10px;
+}
+
+.icons i {
+  font-size: 30px;
+  margin: 10px;
+  animation: opc 2s;
+}
+
+@keyframes opc {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b203e;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  top: 30%;
+  position: fixed;
+  width: 100%;
+}
+
+.container #text {
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+#avatar {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.typed-cursor {
+  font-size: 35px;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
